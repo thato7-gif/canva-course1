@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Session 2 – Canva Basics</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles-extras.css">
+</head>
+<body>
+
+<div class="logo-bar">
+  <a href="https://ikworxitacademy.com/" class="logo-link" target="_blank" rel="noopener">
+    <img src="images/logo.png" alt="IKWorx IT Academy Logo">
+  </a>
+</div>
+
+<nav class="navbar navbar-expand-lg sticky-top shadow">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">🎨 Canva Design Workshop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Overview</a></li>
+        <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link" href="session1.html">Session 1</a></li>
+        <li class="nav-item"><a class="nav-link active" href="session2.html">Session 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="session3.html">Session 3</a></li>
+        <li class="nav-item"><a class="nav-link" href="session4.html">Session 4</a></li>
+        <li class="nav-item"><a class="nav-link" href="session5.html">Session 5</a></li>
+        <li class="nav-item"><a class="nav-link" href="wrapup.html">Wrap-up</a></li>
+        <li class="nav-item"><a class="nav-ikworx-btn" href="https://ikworxitacademy.com/" target="_blank" rel="noopener">Back to IKWorx</a></li>
+        <li class="nav-item"><button class="theme-toggle-btn" type="button">🌙</button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="banner">
+  <div class="shape shape1"></div>
+  <div class="shape shape2"></div>
+  <h1>🖥️ Session 2: Canva Basics</h1>
+  <p>Get comfortable with the tool you'll use all day</p>
+</section>
+
+<div class="container my-5">
+
+  <h2 class="section-title mb-3">Setup Checklist</h2>
+  <ol>
+    <li>Go to <a href="https://canva.com" target="_blank">canva.com</a> and click <strong>Sign up</strong>.</li>
+    <li>Use your email or sign in with Google — it's free.</li>
+    <li>Skip any "Canva Pro" popups — you only need the free plan.</li>
+    <li>Click <strong>Create a design</strong> → search "Instagram Post".</li>
+    <li>You now have a blank 1080×1080 canvas ready to work on.</li>
+  </ol>
+
+  <h2 class="section-title mb-3 mt-5">Deeper Dive</h2>
+
+  <details class="tab-collapse">
+    <summary>🧭 Tour of the Canva Interface</summary>
+    <div class="tab-body">
+      <ul>
+        <li><strong>Left Sidebar</strong> — Templates, Elements, Text, Uploads, Photos</li>
+        <li><strong>Top Toolbar</strong> — File, Resize, Share, Download</li>
+        <li><strong>Centre Canvas</strong> — Where your design appears</li>
+        <li><strong>Context Bar</strong> — Appears when you select something</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="tab-collapse">
+    <summary>⭐ The 5 Things You'll Use Most</summary>
+    <div class="tab-body">
+      <ol>
+        <li><strong>Templates</strong> — Starting points for inspiration</li>
+        <li><strong>Elements</strong> — Shapes, icons, stickers, lines</li>
+        <li><strong>Text</strong> — Heading, Subheading, Body text (stick to 2 fonts)</li>
+        <li><strong>Uploads</strong> — Your own images</li>
+        <li><strong>Position tools</strong> — Align, space evenly, transparency</li>
+      </ol>
+    </div>
+  </details>
+
+  <h2 class="section-title mb-3 mt-5">▶️ Practice — Your First Design</h2>
+  <ol>
+    <li>Create a new "Instagram Post" (1080×1080).</li>
+    <li>Choose a template from "Social Media" that you like.</li>
+    <li>Change the headline to your own name.</li>
+    <li>Change the subheading to "Future Designer".</li>
+    <li>Swap the photo for one from the Photos tab.</li>
+    <li>Click <strong>Share → Download → PNG</strong> to save it.</li>
+  </ol>
+
+  <textarea class="design-textarea" id="reflect1" placeholder="Example: I made a personal brand post using a black-and-lime template. Changing the photo felt easiest; aligning the text was harder."></textarea>
+  <div class="design-actions">
+    <button class="design-btn" data-target="reflect1">Check My Reflection</button>
+    <button class="design-btn design-btn-secondary" data-reset="reflect1">Clear</button>
+  </div>
+  <div class="design-feedback" id="fb-reflect1"></div>
+
+  <h2 class="section-title mb-3 mt-5">🧠 Quick Check</h2>
+  <div class="js-quiz" data-correct="B,C,A">
+    <div class="quiz-question mb-4">
+      <p><strong>1. Where do you find shapes and icons in Canva?</strong></p>
+      <label><input type="radio" name="q1" value="A"> Templates</label>
+      <label><input type="radio" name="q1" value="B"> Elements</label>
+      <label><input type="radio" name="q1" value="C"> Uploads</label>
+      <div class="feedback"></div>
+    </div>
+    <div class="quiz-question mb-4">
+      <p><strong>2. How many fonts should a single design use?</strong></p>
+      <label><input type="radio" name="q2" value="A"> At least 5</label>
+      <label><input type="radio" name="q2" value="B"> One</label>
+      <label><input type="radio" name="q2" value="C"> Two — heading + body</label>
+      <div class="feedback"></div>
+    </div>
+    <div class="quiz-question mb-4">
+      <p><strong>3. Best way to start a new design?</strong></p>
+      <label><input type="radio" name="q3" value="A"> Start with a template or blank canvas + a plan</label>
+      <label><input type="radio" name="q3" value="B"> Copy a random design exactly</label>
+      <label><input type="radio" name="q3" value="C"> Fill the canvas with stickers</label>
+      <div class="feedback"></div>
+    </div>
+    <button class="quiz-submit btn btn-primary">Submit Answers</button>
+    <button class="quiz-reset btn btn-outline-secondary">Reset</button>
+    <div class="quiz-result alert d-none mt-3"></div>
+  </div>
+
+  <div class="row g-4 mt-5">
+    <div class="col-md-6">
+      <div class="card">
+        <!-- Replace with: Pinterest "laptop with design software on desk" -->
+        <img src="images/laptop-design.jpeg" alt="Laptop with design software on desk">
+        <div class="card-body"><h5>Canva Is Your Studio</h5><p>Everything you need is one click away.</p></div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <!-- Replace with: Magnific "design tools flat lay" -->
+        <img src="images/tools.jpeg" alt="Design tools flat lay">
+        <div class="card-body"><h5>Digital + Traditional</h5><p>Design skills from paper transfer straight to screen.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mark-complete-container" class="text-center mt-4"></div>
+  <div id="nav-buttons-container" class="container"></div>
+</div>
+
+<footer><p>🎨 Canva Design Workshop · Session 2</p></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/theme-toggle.js"></script>
+<script src="js/progress-tracker.js"></script>
+<script src="js/quiz-grader.js"></script>
+<script src="js/nav-buttons.js"></script>
+<script src="js/animations.js"></script>
+<script>
+  const checks = {
+    reflect1: (t) => {
+      const tips = [];
+      if (t.length < 50) tips.push("Try 2 full sentences — what you made and one thing you found tricky.");
+      if (!/(design|post|template|canva|font|colour|photo)/i.test(t)) tips.push("Mention something you designed (template, font, colour, photo).");
+      if (!/(easy|hard|tricky|helpful|learned|felt)/i.test(t)) tips.push("Add a reflection word — what felt easy or hard?");
+      if (tips.length === 0) tips.push("Great reflection! 👏 You're building design awareness.");
+      return tips;
+    }
+  };
+  document.querySelectorAll(".design-btn[data-target]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.target;
+      const text = document.getElementById(id).value.trim();
+      const box = document.getElementById("fb-" + id);
+      const tips = checks[id](text);
+      box.innerHTML = "<strong>Feedback:</strong><br>• " + tips.join("<br>• ");
+      box.classList.add("show");
+    });
+  });
+  document.querySelectorAll(".design-btn-secondary[data-reset]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.reset;
+      document.getElementById(id).value = "";
+      document.getElementById("fb-" + id).classList.remove("show");
+    });
+  });
+</script>
+</body>
+</html>
